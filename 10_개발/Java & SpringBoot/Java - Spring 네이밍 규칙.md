@@ -29,7 +29,7 @@ backend.domain, backend.service
 
 ### 데이터베이스
 
-**테이블/컬럼명: snake_case**
+**DB/테이블/컬럼명: snake_case**
 
 ```sql
 user_entity, created_at, user_name
