@@ -1,6 +1,10 @@
 
 ```yml
 spring:
+  security: 
+    user: #security 로그인 이름 비번
+      name: dev
+      password: "1234"
   application:
     name: backend
   datasource:
