@@ -62,7 +62,7 @@ react 컴포넌트는 대문자
 변수 사용 x useState 사용
 
 vscode에서 cmd + 클릭 안될때 
-jsconfig.json설정
+jsconfig.json 파일 생성후 리로드
 ###### SecurityConfig
 ###### WebConfig
 ```java
