@@ -59,6 +59,29 @@ SpringSecurity 비활성화
 ###### SecurityConfig
 
 ###### WebConfig
+```java
+package com.example.javajsreact.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/api/**")  // /api로 시작하는 경로만
+                .allowedOrigins(
+                        "http://localhost:5173",  // 개발: Vite
+                        "http://localhost:3000"   // 개발: CRA (필요시)
+                )
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH")
+                .allowedHeaders("*")
+                .allowCredentials(true);  // 쿠키/인증 정보 포함 허용
+    }
+}
+```
 
 ###### vite.config.js
 ```js
