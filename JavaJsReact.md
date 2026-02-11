@@ -1,5 +1,5 @@
 ![[Pasted image 20260207205114.png]]
-###### Table
+###### Table 
 - https://dbdiagram.io/d
 Table users {
 
