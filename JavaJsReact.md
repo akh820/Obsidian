@@ -56,4 +56,22 @@ SpringSecurity 비활성화
 
 [[Js + React 설치 명령어(Vite)]]
 
+###### vite.config.js
+```js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],//jsx 파일 처리해줌
+  server: { // server 옵션은 vide dev 실행 시에만 동작
+    proxy: {
+      "/api": { // /api 시작하는 요청을 target으로 전달
+        target: "http://localhost:8080",
+        changeOrigin: true,
+      },
+    },
+  },
+});
+
+```
