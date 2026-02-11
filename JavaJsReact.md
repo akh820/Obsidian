@@ -63,6 +63,9 @@ react 컴포넌트는 대문자
 
 vscode에서 cmd + 클릭 안될때 
 jsconfig.json 파일 생성후 리로드
+
+이동시 라우터
+라우터 설치
 ###### SecurityConfig
 ###### WebConfig
 ```java
