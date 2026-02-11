@@ -50,3 +50,8 @@ updated_at LocalDateTime
 created_at LocalDateTime
 
 }
+
+
+[[Client -> Spring Boot HTTP 요청 처리순서]]
+
+[[Spring Boot application ]]
