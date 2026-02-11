@@ -60,6 +60,9 @@ SpringSecurity 비활성화
 axios res.data 가 리턴 값
 react 컴포넌트는 대문자
 변수 사용 x useState 사용
+
+vscode에서 cmd + 클릭 안될때 
+jsconfig.json설정
 ###### SecurityConfig
 ###### WebConfig
 ```java
