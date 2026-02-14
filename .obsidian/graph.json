@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "클라우드",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.45027260357694604,
-  "close": true
+  "scale": 0.24780911593195165,
+  "close": false
 }
