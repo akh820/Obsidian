@@ -1,4 +1,11 @@
 ![[Pasted image 20260207205114.png]]
+어떨때 Entity로 받고 어떨때 DTO로 받는지?
+Controller  →  Service  →  Repository
+   ↑              ↑              ↑
+  DTO 받음      변환 처리      Entity 저장
+  DTO 응답      Entity→DTO
+
+
 ###### Table 
 - https://dbdiagram.io/d
 Table users {
