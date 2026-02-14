@@ -1,4 +1,5 @@
 ![[Pasted image 20260207205114.png]]
+[[연수기간중 개발 재활 가이드?]]
 어떨때 Entity로 받고 어떨때 DTO로 받는지?
 Controller  →  Service  →  Repository
    ↑              ↑              ↑
