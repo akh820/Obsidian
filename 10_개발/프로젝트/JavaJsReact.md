@@ -9,6 +9,7 @@ Controller  →  Service  →  Repository
 DTO에 @NoArgsConstructor가 필요한이유,
 Jackson이 JSON을 객체로 만들 때 **기본 생성자로 먼저 객체를 만들고** 값을 넣어주기 때문에 필요
 
+[[Jpa Auditing 어노테이션]]
 ###### Table 
 - https://dbdiagram.io/d
 Table users {
