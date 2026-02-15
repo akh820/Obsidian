@@ -113,4 +113,4 @@ CREATE TABLE users (
 );
 ```
 
-주요 차이점은 PostgreSQL의 `SERIAL`과 MySQL의 `AUTO_INCREMENT`, 그리고 PostgreSQL의 `RETURNING` 절 정도예요. 나머지 기본 CRUD는 거의 동일합니다.
+주요 차이점은 PostgreSQL의 `SERIAL`과 MySQL의 `AUTO_INCREMENT`, 그리고 PostgreSQL의 `RETURNING` 절 정도예요. 나머지 기본 CRUD는 거의 동일합니다. 그렇군요
