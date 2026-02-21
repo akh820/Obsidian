@@ -1,5 +1,5 @@
 ```bash
-npm create vite@latest JavaJsReactFE -- --template react
+npm create vite@latest osm-fe -- --template react
 cd frontend
 npm install
 npm run dev
